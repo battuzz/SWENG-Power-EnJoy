@@ -1,0 +1,29 @@
+Goals:
+
+G1: Allow the user to register to the system.
+
+G2: Allow registered user to reserve a car.
+
+G3: Allow registered user to see nearby cars.
+
+G4: Allow the user to use the car he reserved.
+
+G5: Inform the user on how much exactly he is going to pay for the ride.
+
+G6: Inform the user on all safe areas for parking cars
+
+G7: Allow the user to cancel or modify a previous reservation
+
+G8: Track position of all the cars.
+
+G9: 
+
+
+
+
+Domain assumptions:
+
+D1: All cars are equipped with a working GPS tracking system. If GPS system is not available, the car is considered out of service.
+D2: All cars have access to internet and the internet connection is always good.
+D3: The car always do what the system tell them to do.
+D4: If a car is available then the car is working
