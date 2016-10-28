@@ -22,3 +22,6 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+
+## Mac files
+.DS_Store

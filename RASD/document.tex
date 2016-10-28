@@ -1,6 +1,8 @@
 \documentclass[12pt, a4paper]{article}
 \usepackage{blindtext}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {Diagrams/} }
 
 % Title Page
 \title{{\Huge PowerEnJoy}}
@@ -34,9 +36,22 @@
 	
 	\subsection{Definitions, acronyms, abbreviations}
 	
+			\subsubsection{Definitions}
+					
+			\subsubsection{Acronyms}
+				\begin{itemize}
+					\item {[PE]} Power EnJoy system
+					\item {[PEM]} Power EnJoy Mobile application
+				\end{itemize}
+					
+			\subsubsection{Abbreviations}
+					\begin{itemize}
+						\item {[Gn]} n-th goal 
+						\item {[Dn]} n-th domain assumption
+						\item {[Rn.m]} m-th requirement related to goal [Gn]
+					\end{itemize}
 	
 	\subsection{Reference documents}
-
 	
 	\subsection{Overview}
 
@@ -45,20 +60,13 @@
 \section{Overall description}
 	\subsection{Product perspective}
 
-	
+	\subsection{Product functions}
+		
 	\subsection{User characteristics}
 
-	
-	\subsection{Product functions}
-
-	
-	\subsection{Assumptions and Dependencies}
-
-	
 	\subsection{Constraints}
 	
-	\subsection{Domain assumptions}
-
+	\subsection{Assumptions and Dependencies}
 	
 	\subsection{Future possible implementation}
 
@@ -68,19 +76,18 @@
 	\subsection{External Interface Requirements}
 	
 	\subsection{Functional requirements / System Functions}
+	\input{Specific_requirements/functional_requirements.tex}
 	
 	\subsection{Scenarios}
 	\input{Specific_requirements/scenarios.tex}
-
-	\subsection{Use case diagram}
 	
 	\subsection{Class diagram}
 	
 	\subsection{Other UML diagram / Function sequence diagrams}
 
+	\subsection{Performance requirements}
 	
 	\subsection{Software system requirements}
-
 	
 	\subsection{Alloy}
 
